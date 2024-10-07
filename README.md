@@ -1,6 +1,6 @@
 ## Travel Buddy
 
-This is a practical travel assistant application that helps users estimate the approximate cost of a vacation based on their selected destination, number of travelers, and transportation method for Patika+ Back-End Path Week 2.
+This is a practical travel assistant application that helps users estimate the approximate cost of a 3-day vacation based on their selected destination, number of travelers, and transportation method for Patika+ Back-End Path Week 2.
 
 #### Features
 3 Destinations Available:

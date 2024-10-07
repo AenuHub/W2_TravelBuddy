@@ -24,7 +24,7 @@ internal class Program
                     Console.WriteLine();
                 }
 
-                Console.WriteLine("- Which location do you want to visit?");
+                Console.WriteLine("- Which location do you want to visit for 3 days?");
                 Console.WriteLine("- 1) Bodrum (Package starting price 4000 TL)");
                 Console.WriteLine("- 2) Marmaris (Package starting price 3000 TL)");
                 Console.WriteLine("- 3) Cesme (Package starting price 5000 TL)");
@@ -105,7 +105,7 @@ internal class Program
             Console.WriteLine("-------------------------------------------------------------");
             Console.WriteLine("You have chosen to travel to " + userLocationChoice + " with " + numberOfPeople + " people.");
             Console.WriteLine("The cost of your travel by " + (userTravelChoice == 1 ? "road" : "air") + " will be: " + userTravelCost + " TL for " + numberOfPeople + " people.");
-            Console.WriteLine("The total cost of your vacation with chosen travel is: " + userTotalCost + " TL.");
+            Console.WriteLine("The total cost of your 3-day vacation with chosen travel type is: " + userTotalCost * 3 + " TL.");
             Console.WriteLine("-------------------------------------------------------------");
             Console.Write("Do you want to calculate another travel plan?(Y/N): ");
             userAnswer = Console.ReadLine().ToLower();
